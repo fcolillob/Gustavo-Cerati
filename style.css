@@ -1,0 +1,145 @@
+html {
+    font: 20px/1.5 'garamond', sans-serif;
+    font-variant: normal;
+    font-style: normal;
+    font-family: monospace;
+}
+
+.main-section {
+    background-color: hsla(120, 5%, 96%, 0.319);
+}
+
+h1,
+h2 {
+    font-variant: small-caps;
+    color: rgb(47, 47, 49);
+}
+
+body {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+}
+
+
+figcaption {
+    font-size: .7rem;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+q {
+    font-size: 1.rem;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+cite {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    font-size: 0.9rem;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.images-container .main-section-figure img {
+    max-width: 100%;
+    height: auto;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.images-container .main-section-figure {
+    margin: 2rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+#relative-path-image {
+    border: 2px solid rgb(38, 0, 25);
+    border-width: 0.2em;
+    border-style: dashed;
+    border-radius: 0.5rem;
+    background-color: hsla(120, 3%, 68%, 0.8);
+}
+
+#relative-path-image figcaption {
+    color: rgb(38, 0, 25);
+}
+
+#absolute-path-image {
+    border: 2px solid rgb(38, 0, 25);
+    border-width: 0.2em;
+    border-style: dashed;
+    border-radius: 0.5rem;
+    background-color: hsla(120, 3%, 68%, 0.8);
+}
+
+#absolute-path-image figcaption {
+    color: rgb(38, 0, 25);
+}
+
+#video {
+    font-size: 30px;
+}
+
+video {
+
+    width: 80%;
+    height: 50%;
+    height: 10em;
+    padding: 1rem;
+    border: 1px solid rgb(39, 45, 52);
+    border-width: 0.2em;
+    border-style: groove;
+    border-radius: 1rem;
+
+}
+
+header,
+footer {
+    text-align: center;
+    border: 2px solid #b7b7b7;
+    background: linear-gradient(rgb(237, 237, 239), rgb(179, 180, 182));
+}
+
+.main-section {
+    text-align: center;
+    padding: 1rem;
+}
+
+#bio {
+    text-align: left;
+}
+
+.images-container {
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.main-section-figure img {
+    width: 80%;
+    height: 90%;
+    padding: .5rem;
+    border-radius: 1rem;
+
+
+}
+
+#quote {
+    padding: 1rem;
+    border: 2px solid #369;
+    border-width: 0.2em;
+    border-style: dashed;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px lightblue;
+}
