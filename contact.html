@@ -1,0 +1,94 @@
+<!--Francisco Lillo 8913672-->
+<!DOCTYPE html>
+<hmtl lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <meta name="description" content="Gustavo Cerati is the most famous and influential singer of Latin rock">
+        <meta name="keywords" content="gustavo, Cerati, soda stereo, latin rock, argentina, singer">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Gustavo Cerati</h1>
+        </header>
+        <nav>
+            <ul>
+                <li id="home-link"><a href="index.html">Home</a></li>
+                <li id="contact-link"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+
+
+
+        <main class="main-section">
+            <h2 id="h2contact">Contact</h2>
+            <form name="contact" id="contact" method="post" action="contact.php" autocomplete="off">
+                <fieldset id="mainfieldset">
+                    <legend>Personal Information</legend>
+                    <div>
+                        <label id="firstname" for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" autofocus placeholder="First Name">
+                        <label id="lastname" for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" autofocus placeholder="Last Name">
+                        <label id="Age" for="age">Age</label>
+                        <input type="text" id="age" name="age" autofocus placeholder="Age">
+                        <label id="Email" for="email">Email</label>
+                        <input type="email" id="email" name="email" autofocus placeholder="Email">
+                        <label id="Date" for="date">Date</label>
+                        <input type="date" name="date" id="date" aria-labelledby="Date" placeholder="YYYY-MM-DD"
+                            autocomplete="off" title="Data">
+
+                    </div>
+                    <fieldset id="gender">
+                        <legend>Gender</legend>
+                        <label for="female">Famale</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="male">Male</label>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="other">Other</label>
+                        <input type="radio" id="other" name="gender" value="other">
+                    </fieldset>
+                    <fieldset id="service">
+                        <legend>What service do you use to listen to Soda Stereo?</legend>
+                        <label for="youtube">YouTube Music</label>
+                        <input type="checkbox" id="youtube" name="service" value="youtube">
+                        <label for="spotify">Spotify</label>
+                        <input type="checkbox" id="spotify" name="service" value="spotify">
+                        <label for="applemusic">Apple Music</label>
+                        <input type="checkbox" id="applemusic" name="service" value="applemusic">
+
+                    </fieldset>
+                    <fieldset id="say">
+                        <legend>What would you like to say to Gustavo Cerati?</legend>
+                        <label for="comment"></label>
+                        <textarea name="comment" id="comment" rows="5" cols="50"></textarea>
+                    </fieldset>
+
+                    <div>
+                        <button type="submit" id="submit" value="submit">
+                            Submit Form
+                        </button>
+                    </div>
+
+                </fieldset>
+            </form>
+        </main>
+
+
+
+
+        <footer>
+            <p>&copy; Francisco Lillo 2024</p>
+
+        </footer>
+
+    </body>
+
+
+    </html>

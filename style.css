@@ -20,6 +20,7 @@ body {
     max-width: 1200px;
     margin: auto;
     padding: 1rem;
+
 }
 
 
@@ -104,11 +105,18 @@ video {
 
 }
 
+header {
+    margin-bottom: 10px;
+    margin-top: 1px;
+}
+
 header,
 footer {
     text-align: center;
     border: 2px solid #b7b7b7;
     background: linear-gradient(rgb(237, 237, 239), rgb(179, 180, 182));
+    width: 100%;
+    float: inline-end;
 }
 
 .main-section {
@@ -142,4 +150,231 @@ footer {
     border-style: dashed;
     border-radius: 1rem;
     box-shadow: 5px 5px 5px lightblue;
+}
+
+nav {
+    background-color: white;
+    padding: 0 1rem 2rem 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0.25rem;
+    margin: 0 0.25rem;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    border: 0.1rem solid white;
+    background-color: white;
+}
+
+nav ul li a {
+    color: black;
+    font-variant: small-caps;
+    font-size: 1.25rem;
+    background-color: silver;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover {
+    color: black;
+    background-color: white;
+    border: 0.1rem solid silver;
+}
+
+#home-link {
+    width: 49%;
+    float: left;
+}
+
+#contact-link {
+    width: 49%;
+    float: right;
+}
+
+main {
+    width: 60%;
+    float: left;
+}
+
+aside {
+    width: 30%;
+    float: right;
+}
+
+#biography {
+    width: 50%;
+    float: left;
+    margin-right: 5%;
+}
+
+#images {
+    width: 30%;
+    float: right;
+}
+
+#quote {
+    float: inline-end;
+    float: left;
+}
+
+#video {
+    float: inline-end;
+    float: left;
+}
+
+aside h3 {
+    font-variant: small-caps;
+    color: black;
+    text-align: center;
+}
+
+table,
+td {
+    border: 0.1rem solid black;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+
+#question {
+    font-variant: initial;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#answer {
+    font-style: italic;
+    font-size: 16px;
+}
+
+#links,
+li,
+a {
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    line-height: 2;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+#links,
+li,
+a:hover {
+    color: silver;
+}
+
+/* Form CSS styles */
+
+#contact {
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: .5rem;
+    margin-right: 1.5rem;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: .5rem;
+    padding-right: 1.5rem;
+
+
+
+}
+
+
+#first-name,
+#last-name,
+#age,
+#email,
+#date {
+    color: black;
+    font-variant: small-caps;
+    font-weight: bolder;
+    display: block;
+    height: 12px;
+    width: 160px;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+
+}
+
+#firstname,
+#lastname,
+#Age,
+#Email,
+#Date {
+
+    display: block;
+    text-align: left;
+}
+
+#mainfieldset {
+    background-color: rgb(243, 246, 248)
+}
+
+#gender,
+#say,
+#service {
+
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+@media (max-width: 900px){
+    html{
+        font-size : 15px;
+    }
+    #contact-link{
+        float: none;
+        width : 100%
+    }
+    #home-link{
+        float : none;
+        width : 100%;
+    }
+}
+
+
+@media (max-width: 600px){
+    html{
+        font-size : 12px;
+    }
+    #contact-link{
+        float: none;
+        width : 100%
+    }
+    #home-link{
+        float : none;
+        width : 100%;
+    }
+    main{
+        float : none;
+        width : 100%;
+    }
+    aside{
+        float : none;
+        width : 100%;
+    }
 }

@@ -13,15 +13,21 @@
     </head>
 
     <body>
-        <header>
+        <header id="title">
             <h1>Gustavo Cerati</h1>
         </header>
+        <nav>
+            <ul>
+                <li id="home-link"><a href="Index copy.html">Home</a></li>
+                <li id="contact-link"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
 
 
 
 
         <main class="main-section">
-            <section>
+            <section id="biography">
                 <h2>Biography</h2>
                 <blockquote id="bio">
                     <p>
@@ -41,23 +47,23 @@
 
 
 
-            <section class="images-container">
-                <h2>Images</h2>
+            <section id="images" class="images-container">
+                <h2>Image</h2>
                 <figure id="relative-path-image" class="main-section-figure">
                     <img src="images/GustavoCerati-1.jpg" alt="Gustavo Cerati">
                     <figcaption>Gustavo Cerati in 2007 at his last concert in Venezuela.</figcaption>
                 </figure>
 
-                <figure id="absolute-path-image" class="main-section-figure">
+                <!---<figure id="absolute-path-image" class="main-section-figure">
                     <img src="https://e.radio-grpp.io/normal/2016/08/15/171417_219959.jpg" alt="Soda Stereo">
                     <figcaption>Gustavo Cerati with his band 'Soda Stero' that brought him fame.</figcaption>
-                </figure>
+                </figure>-->
             </section>
 
 
 
 
-            <section>
+            <section id="quote">
                 <h2>Quote</h2>
                 <blockquote id="quote">
                     <q>Being able to say goodbye is growing.</q>
@@ -69,14 +75,56 @@
             <section id="video">
                 <h2>Video</h2>
                 <figure>
-                    <video width="560" height="315" controls tabindex="0" role="button" aria-label="video player">
-                        <source src="videos/SodaStereo-DeMúsicaLigera.mp4" type="video/mp4">
-                    </video>
-                    <figcaption>De Música Ligera. Soda Stereo. 1990.</figcaption>
+                    <iframe  width="450" height="360" src="https://www.youtube.com/embed/5eAICc5p7tU" 
+                        title="Gustavo Cerati - Interview - Backstage Los 7 Delfines (1998)" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen ></iframe>
+                    <figcaption>Gustavo Cerati - Interview - Backstage Los Siete Delfines (1998).</figcaption>
 
                 </figure>
             </section>
         </main>
+        <aside>
+            <h3>Frequently Asked Questions</h3>
+            <table>
+                
+                <tbody>
+                    <tr>
+                        <td id="question">Who was Gustavo Cerati? </td>
+                    </tr>
+                    <tr>
+                        <td id="answer">Gustavo Cerati was an Argentine musician known as the frontman of Soda Stereo,
+                            an influential Spanish rock band. </td>
+                    </tr>
+                    <tr>
+                        <td id="question">What were Gustavo Cerati's major achievements?</td>
+                    </tr>
+                    <tr>
+                        <td id="answer">Cerati achieved success with Soda Stereo, one of the most significant Latin
+                            American rock bands. He also had a successful solo career.</td>
+                    </tr>
+                    <tr>
+                        <td id="question">What was Gustavo Cerati's legacy in music?</td>
+                    </tr>
+                    <tr>
+                        <td id="answer">His legacy includes his influence on Latin American music, his ability to blend
+                            styles, and his impact on contemporary culture, both musically and artistically.
+
+
+
+
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Other Websites</h3>
+            <ul id="links">
+                <li><a href="http://www.cerati.com/" target="_blank">Official Site</a></li>
+                <li><a href="https://www.youtube.com/channel/UCZuU_8S5VItTh-InZ0CV-rA" target="_blank">YouTube
+                        Channel</a></li>
+                <li><a href="https://open.spotify.com/artist/1QOmebWGB6FdFtW7Bo3F0W" target="_blank">Spotify</a></li>
+            </ul>
+        </aside>
 
 
 
